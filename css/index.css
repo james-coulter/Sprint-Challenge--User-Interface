@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -69,6 +70,11 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.about-page {
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 .top-content {
@@ -253,4 +259,20 @@ header .jumboImg {
 
 .text-container-two {
     margin: 5% 0%;
+}
+
+a {
+    transition-duration: 1s;
+
+}
+
+a:hover{
+    color: orange;
+    border-color: orange;
+}
+
+.smallLink a:hover {
+    color: orange;
+    border-color: orange;
+    padding: 5px;
 }
