@@ -184,34 +184,74 @@ header .jumboImg {
 
 .middle-content .boxes .one {
     background: teal;
+    transition: 1.25s;
+}
+.middle-content .boxes .one:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .two {
     background: gold;
+    transition: 1.25s;
+}
+.middle-content .boxes .two:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .three {
     background: cadetblue;
+    transition: 1.25s;
+}
+.middle-content .boxes .three:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .four {
     background: coral;
+    transition: 1.25s;
+}
+.middle-content .boxes .four:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .five {
     background: crimson;
+    transition: 1.25s;
+}
+.middle-content .boxes .five:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .six {
     background:forestgreen;
+    transition: 1.25s;
+}
+.middle-content .boxes .six:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .seven {
     background: darkorchid;
+    transition: 1.25s;
+}
+.middle-content .boxes .seven:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .eight {
     background: hotpink;
+    transition: 1.25s;
+}
+.middle-content .boxes .eight:hover {
+    transform: rotate(360deg);
 }
 .middle-content .boxes .nine {
     background:  indigo;
+    transition: 1.25s;
+}
+.middle-content .boxes .nine:hover {
+    transform: rotate(360deg);
 }
 
 .middle-content .boxes .ten {
     background: dodgerblue;
+    transition: 1.25s;
+}
+.middle-content .boxes .ten:hover {
+    transform: rotate(360deg);
 }
 
 .gridFour {
@@ -219,7 +259,7 @@ header .jumboImg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 84vh;
+    height: 80vh;
     align-content: space-between;
     width: 100%;
     margin-top: 2%;
@@ -229,7 +269,6 @@ header .jumboImg {
 
 .smallGrid {
     display: flex;
-    height: 41vh;
     align-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
@@ -275,4 +314,47 @@ a:hover{
     color: orange;
     border-color: orange;
     padding: 5px;
+}
+
+
+.whoops {
+    display: flex
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 8%;
+
+
+}
+
+.whoops h1 {
+    font-size: 50px
+    
+}
+
+.whoops p {
+    font-size: 30px;
+}
+
+.whoopsWords {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-bottom: 10%;
+}
+
+#loadingGear {
+    width: 45%;
+    animation: rotation 7s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
