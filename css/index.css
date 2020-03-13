@@ -207,3 +207,50 @@ header .jumboImg {
 .middle-content .boxes .ten {
     background: dodgerblue;
 }
+
+.gridFour {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 84vh;
+    align-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+    border-top: 1px dashed black;
+
+}
+
+.smallGrid {
+    display: flex;
+    height: 41vh;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2% 2% 0% 2%;
+    width: 40%;
+    border-bottom: 1px dashed black;
+}
+
+.smallGrid img {
+    flex-wrap: wrap;
+    width: 98%;
+    margin-bottom: 5%;
+}
+
+.smallGrid a {
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+    padding: 2% 5%;
+    border-radius: 6px;  
+}
+
+.smallGrid .smallLink {
+    margin-top: 8%;
+}
+
+.text-container-two {
+    margin: 5% 0%;
+}
