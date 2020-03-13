@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -71,11 +72,18 @@ p {
     margin: 0 auto;
 }
 
+.about-page {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: space-around;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -143,4 +151,210 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+header .jumboImg {
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.middle-content .boxes .one {
+    background: teal;
+    transition: 1.25s;
+}
+.middle-content .boxes .one:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .two {
+    background: gold;
+    transition: 1.25s;
+}
+.middle-content .boxes .two:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .three {
+    background: cadetblue;
+    transition: 1.25s;
+}
+.middle-content .boxes .three:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .four {
+    background: coral;
+    transition: 1.25s;
+}
+.middle-content .boxes .four:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .five {
+    background: crimson;
+    transition: 1.25s;
+}
+.middle-content .boxes .five:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .six {
+    background:forestgreen;
+    transition: 1.25s;
+}
+.middle-content .boxes .six:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .seven {
+    background: darkorchid;
+    transition: 1.25s;
+}
+.middle-content .boxes .seven:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .eight {
+    background: hotpink;
+    transition: 1.25s;
+}
+.middle-content .boxes .eight:hover {
+    transform: rotate(360deg);
+}
+.middle-content .boxes .nine {
+    background:  indigo;
+    transition: 1.25s;
+}
+.middle-content .boxes .nine:hover {
+    transform: rotate(360deg);
+}
+
+.middle-content .boxes .ten {
+    background: dodgerblue;
+    transition: 1.25s;
+}
+.middle-content .boxes .ten:hover {
+    transform: rotate(360deg);
+}
+
+.gridFour {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80vh;
+    align-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+    border-top: 1px dashed black;
+
+}
+
+.smallGrid {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2% 2% 0% 2%;
+    width: 40%;
+    border-bottom: 1px dashed black;
+}
+
+.smallGrid img {
+    flex-wrap: wrap;
+    width: 98%;
+    margin-bottom: 5%;
+}
+
+.smallGrid a {
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+    padding: 2% 5%;
+    border-radius: 6px;  
+}
+
+.smallGrid .smallLink {
+    margin-top: 8%;
+}
+
+.text-container-two {
+    margin: 5% 0%;
+}
+
+a {
+    transition-duration: 1s;
+
+}
+
+a:hover{
+    color: orange;
+    border-color: orange;
+}
+
+.smallLink a:hover {
+    color: orange;
+    border-color: orange;
+    padding: 5px;
+}
+
+
+.whoops {
+    display: flex
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 8%;
+
+
+}
+
+.whoops h1 {
+    font-size: 50px
+    
+}
+
+.whoops p {
+    font-size: 30px;
+}
+
+.whoopsWords {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-bottom: 10%;
+}
+
+#loadingGear {
+    width: 45%;
+    animation: rotation 7s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
